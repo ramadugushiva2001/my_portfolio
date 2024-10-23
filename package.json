@@ -1,17 +1,22 @@
 {
-  "name": " ",
+  "name": "my-portfolio-website",
   "version": "0.0.1",
-  "description": "",
+  "description": "A personal portfolio website showcasing my projects and skills.",
   "private": true,
   "keywords": [
-    ""
+    "portfolio",
+    "website",
+    "frontend",
+    "webpack"
   ],
-  "license": "",
-  "author": "",
+  "license": "MIT",
+  "author": "Shiva Ramadugu",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
